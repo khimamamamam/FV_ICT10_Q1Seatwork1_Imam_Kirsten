@@ -9,9 +9,7 @@ from pyscript import display
 #display(bool(b))
 #display(bool(c))
 
-fullname = 'Juan Dela Cruz' #stirng
+fullname = 'Kirsten Heart D. Imam' #stirng
+ag3_s = '16' #integer
 
-display(f'Hi! I am {full name} and I am {ag3_s} years old',
-target = "result")
-
-
+display(f'Hi! I am {fullname} and I am {ag3_s} years old', target = "result")
