@@ -23,7 +23,9 @@ others = {
     "car_brand": "scooter",
     "best_friend": "Both of my sisters, Gab, Aeris, and Caitlyn",
 } #dictionary
-display(others["color"], others["car_brand"], others["best_friend"], target = "result4")
+display(f'Favorite color: {others["color"]}', target="result4")
+display(f'Car brand: {others["car_brand"]}', target="result4")
+display(f'Best friends: {others["best_friend"]}', target="result4")
 
 
 fruits = set(['avocado', 'banana', 'grapes', 'pineapple', 'dragonfruit']) #set
