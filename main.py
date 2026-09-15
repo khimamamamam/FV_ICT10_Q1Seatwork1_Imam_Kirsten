@@ -26,5 +26,8 @@ others = {
 }
 display(others["color"], others["car_brand"], others["best_friend"], target = "result3")
 
-set = (("avocado", "banana", "grapes", "pineapple", "dragonfruit"))
+set = {"avocado", "banana", "grapes", "pineapple", "dragonfruit"}
 display(f'My favorite fruits are {set}', target = "result4")
+
+tuple = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+display(f'These are the days of the week {tuple}', target = "result5")
