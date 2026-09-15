@@ -1,23 +1,13 @@
 from pyscript import display 
 from js import document
 
-#
-
-#a = 0 # integer
-#b = 0.1 # float
-#c = [] #empty list
-
-#display(bool(a))
-#display(bool(b))
-#display(bool(c))
-
 fullname = 'Kirsten Heart D. Imam' #stirng
 age = 16 #integer
 display(f'Hi! I am {fullname} and I am {age} years old', target = "result")
 
 
 h3ight = 144.78 #float
-_countries = ['kazakhstan', 'korea', 'china'] #ist
+_countries = ['kazakhstan', 'korea', 'china'] #list
 display(f'Height: {h3ight}, Countries I want to visit: {_countries}', target = "result2")
 
 
