@@ -7,8 +7,8 @@ display(f'Hi! I am {fullname} and I am {age} years old', target = "result")
 
 
 h3ight = 144.78 #float
-_countries = ['kazakhstan', 'korea', 'china'] #list
-display(f'Height: {h3ight}, Countries I want to visit: {_countries}', target = "result2")
+_countries = ['kazakhstan', 'korea', 'china']
+display(f'Countries I want to visit: {", ".join(_countries)}', target="result2")
 
 
 new_student = False #boolean
