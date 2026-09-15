@@ -1,4 +1,6 @@
-from pyscript import display
+from pyscript import display 
+from js import document
+
 #
 
 #a = 0 # integer
@@ -38,7 +40,23 @@ display(f'My favorite fruits: {fruits}', target = "result5")
 days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") #tuple
 display(f'Days of the week: {days}', target = "result6")
 
-a = 5
-b = 3
 
-display(f'the result is: {a + b}', target = "result7")
+def add_numbers(e):
+    num1 = float(document.getElementById("num1").value)
+    num2 = float(document.getElementById("num2").value)
+    document.getElementById("output").innerText = num1 + num2
+
+def subtract_numbers(e):
+    num1 = float(document.getElementById("num1").value)
+    num2 = float(document.getElementById("num2").value)
+    document.getElementById("output").innerText = num1 - num2
+
+def multiply_numbers(e):
+    num1 = float(document.getElementById("num1").value)
+    num2 = float(document.getElementById("num2").value)
+    document.getElementById("output").innerText = num1 * num2
+
+def divide_numbers(e):
+    num1 = float(document.getElementById("num1").value)
+    num2 = float(document.getElementById("num2").value)
+    document.getElementById("output").innerText = num1 / num2

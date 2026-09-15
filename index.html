@@ -30,11 +30,19 @@
         <label>Enter 2nd Number</label>
         <input type="number" id="num2" class="form-control mb-3">
         <br>
-        <button id="add" pyclick="">Add</button>
-        <button id="subtract" pyclick="">Subtract</button>
-        <button id="multiply" pyclick="">Multiply</button>
-        <button id="divide" pyclick="">Divide</button>
-        <div id="result7"></div>
+        
+        <button type="button" py-click="add_numbers">Add</button>
+
+        <button type="button" py-click="subtract_numbers">Subtract</button>
+
+        <button type="button" py-click="multiply_numbers">Multiply</button>
+
+        <button type="button" py-click="divide_numbers">Divide</button>
+
+        <br>
+        
+        <div id="output"></div>
+
     </div>
 
     <py-script type="py" src="main.py"></py-script>
