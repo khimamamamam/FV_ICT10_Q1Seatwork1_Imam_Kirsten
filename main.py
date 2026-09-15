@@ -7,7 +7,10 @@ display(f'Hi! I am {fullname} and I am {age} years old', target = "result")
 
 
 h3ight = 144.78 #float
-_countries = ['kazakhstan', 'korea', 'china']
+display(f'Height: {h3ight} cm', target = "result1")
+
+
+_countries = ['Kazakhstan', 'Korea', 'US'] #list
 display(f'Countries I want to visit: {", ".join(_countries)}', target="result2")
 
 
