@@ -1,5 +1,4 @@
-from pyscript import display 
-from js import document
+from pyscript import display, document
 
 fullname = 'Kirsten Heart D. Imam' #stirng
 age = 16 #integer
@@ -36,22 +35,38 @@ days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satur
 display(f'Days of the week: {days}', target = "result6")
 
 
-def add_numbers(e):
-    num1 = float(document.getElementById("num1").value)
-    num2 = float(document.getElementById("num2").value)
-    document.getElementById("output").innerText = num1 + num2
+def add(e):
+    document.getElementById("output").innerHTML = " "
 
-def subtract_numbers(e):
-    num1 = float(document.getElementById("num1").value)
-    num2 = float(document.getElementById("num2").value)
-    document.getElementById("output").innerText = num1 - num2
+    number1 = float(document.getElementById("num1").value)
+    number2 = float(document.getElementById("num2").value)
 
-def multiply_numbers(e):
-    num1 = float(document.getElementById("num1").value)
-    num2 = float(document.getElementById("num2").value)
-    document.getElementById("output").innerText = num1 * num2
+    result = number1 + number2
+    display(result, target = "output1")
 
-def divide_numbers(e):
-    num1 = float(document.getElementById("num1").value)
-    num2 = float(document.getElementById("num2").value)
-    document.getElementById("output").innerText = num1 / num2
+def subtract(e):
+    document.getElementById("output").innerHTML = " "
+
+    number1 = float(document.getElementById("num1").value)
+    number2 = float(document.getElementById("num2").value)
+
+    result = number1 - number2
+    display(result, target = "output1")
+
+def multiply(e):
+    document.getElementById("output").innerHTML = " "
+
+    number1 = float(document.getElementById("num1").value)
+    number2 = float(document.getElementById("num2").value)
+
+    result = number1 * number2
+    display(result, target = "output1")
+
+def divide(e):
+    document.getElementById("output").innerHTML = " "
+
+    number1 = float(document.getElementById("num1").value)
+    number2 = float(document.getElementById("num2").value)
+
+    result = number1 / number2
+    display(result, target = "output1")
