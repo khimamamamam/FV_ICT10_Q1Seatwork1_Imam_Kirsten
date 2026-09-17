@@ -27,11 +27,11 @@ display(f'Car brand: {others["car_brand"]}', target="result4")
 display(f'Best friends: {others["best_friend"]}', target="result4")
 
 
-fruits = set(['avocado', 'banana', 'grapes', 'pineapple', 'dragonfruit']) #set
-display(f'My favorite fruits: {fruits}', target = "result5")
+fruits = set(['avocado', 'banana', 'grapes', 'pineapple', 'dragonfruit'])
 
 
-days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") #tuple
+
+days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")#tuple
 display(f'Days of the week: {days}', target = "result6")
 
 
