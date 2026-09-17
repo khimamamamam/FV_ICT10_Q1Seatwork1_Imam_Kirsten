@@ -28,7 +28,7 @@ display(f'Best friends: {others["best_friend"]}', target="result4")
 
 
 fruits = set(['avocado', 'banana', 'grapes', 'pineapple', 'dragonfruit'])
-
+display(f'My favorite fruits: {", ".join(fruits)}', target="result5")
 
 
 days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")#tuple
