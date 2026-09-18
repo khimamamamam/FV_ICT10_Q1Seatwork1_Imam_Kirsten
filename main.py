@@ -32,7 +32,7 @@ display(f'My favorite fruits: {", ".join(fruits)}', target="result5")
 
 
 days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")#tuple
-display(f'My favorite fruits: {", ".join(days)}', target="result6")
+display(f'The days of the week: {", ".join(days)}', target="result6")
 
 
 def add(e):
